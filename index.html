@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Commune - Explore Farms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Green Commune Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><button>Home</button></li>
+                <li class="dropdown">
+                    <button class="dropbtn">Farms</button>
+                    <div class="dropdown-content">
+                        <a href="#">Explore Farms</a>
+                        <a href="#">Farm Products</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Students</button>
+                    <div class="dropdown-content">
+                        <a href="#">Educational Tours</a>
+                        <a href="#">Courses & Workshops</a>
+                        <a href="#">Research Products</a>
+                    </div>
+                </li>
+                <li><button>Families</button></li>
+                <li><button>Agripreneurs</button></li>
+                <li><button class="icon-button"><img src="notification.png" alt="Notifications"></button></li>
+                <li><button class="icon-button"><img src="profile-icon-13.jpg" alt="Profile Management"></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="gc2.jpeg" alt="Explore Farm">
+            <div class="hero-text">
+                <h1>Explore Farm</h1>
+            </div>
+        </section>
+
+        <section class="filters">
+            <div class="filter-item">
+                <label for="budget">Budget:</label>
+                <select id="budget">
+                    <option value="100-500">$100 - $500</option>
+                    <option value="500-1000">$500 - $1000</option>
+                    <option value="1000-above">$1000 & Above</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="food">Food:</label>
+                <select id="food">
+                    <option value="pure-veg">Pure Veg</option>
+                    <option value="pure-non-veg">Pure Non Veg</option>
+                    <option value="both">Both Veg & Non Veg</option>
+                </select>
+            </div>
+            <div class="filter-item">
+                <label for="focus">Focus On:</label>
+                <input type="text" id="focus">
+            </div>
+            <div class="filter-item">
+                <label for="location">Location:</label>
+                <input type="text" id="location">
+            </div>
+            <div class="filter-item">
+                <label for="slot">Slot:</label>
+                <input type="date" id="slot">
+            </div>
+        </section>
+
+        <section class="farm-list">
+            <h2>Farm List</h2>
+            <div class="farm-item">
+                <img src="fimg6.jpg" alt="Green Valley Ranch">
+                <div class="farm-details">
+                    <h3>Green Valley Ranch</h3>
+                    <p>
+                        Nestled in the heart of Napa Valley, Green Valley Ranch is a picturesque vineyard and farm that offers a unique blend of wine production and agritourism.
+                    </p>
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="farm-item">
+                <img src="fimg3.webp" alt="Blue Sky Farm">
+                <div class="farm-details">
+                    <h3>Blue Sky Farm</h3>
+                    <p>
+                        Blue Sky Farm, located in the scenic mountains of Asheville, North Carolina, is a haven for those seeking a connection with nature and sustainable living.
+                    </p>
+                    <button>Know More</button>
+                </div>
+            </div>
+            <div class="farm-item">
+                <img src="fimg2.jpg" alt="Cedarwood Farms">
+                <div class="farm-details">
+                    <h3>Cedarwood Farms</h3>
+                    <p>
+                        Cedarwood Farms, situated in the picturesque countryside of New Haven, Connecticut, is an organic farm that prides itself on its holistic approach to agriculture.
+                    </p>
+                    <button>Know More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <ul>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><img src="680331_official-facebook-icon-png.jpg.png" alt="Facebook"></a>
+                <a href="#"><img src="insta.jpeg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
